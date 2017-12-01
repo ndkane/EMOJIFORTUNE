@@ -5,6 +5,29 @@ var Twit = require('twit');
 var config = require('./config');
 var T = new Twit(config);
 
+//Regular Tweet
+
+tweetIt();
+setInterval (tweetIt, 1000*60*5);
+
+function tweetIt() {
+	
+	var r = Math.floor(Math.random()*50);
+
+	var tweet = {
+		status: 'Give me ' + r + ' emojis and I will read your fortune...'
+	}
+
+	T.post('statuses/update', tweet, tweeted);
+
+	function tweeted(err, data, response) {
+		if (err) {
+			console.log("Something went wrong!");
+		} else {
+			console.log("It worked!");
+		}
+	}
+}
 
 // Setting up a user stream
 var stream = T.stream('user');
@@ -24,6 +47,8 @@ function tweetEvent(eventMsg){
 var phraseArray = [ " I see trouble ahead. Gather your things and get on the next train.",
                     " I see a kind stranger approaching. Ask them the time, do not hesitate at their answer.",
                     " Give a woman with brown hair your time. Direct her to the last place you stood.",
+                    " It's all going to be fine, it's all going to be fine. Just keep telling yourself that. It's all going...",
+                    " There are four people in a room, you have interrupted. Tell one of them to leave and then continue.",
                     " Stop where you are, immediately. Turn around, find something green and put it in your pocket." ];
         
 function chooseRandom(myArray) {
