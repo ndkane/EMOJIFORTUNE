@@ -49,7 +49,10 @@ var phraseArray = [ " I see trouble ahead. Gather your things and get on the nex
                     " Give a woman with brown hair your time. Direct her to the last place you stood.",
                     " It's all going to be fine, it's all going to be fine. Just keep telling yourself that. It's all going...",
                     " There are four people in a room, you have interrupted. Tell one of them to leave and then continue.",
-                    " Stop where you are, immediately. Turn around, find something green and put it in your pocket." ];
+                    " Stop where you are, immediately. Turn around, find something green and put it in your pocket.",
+                    " They aren't your true love, but they suit the furniture. Ask them to change and invite them over.".
+                    " The next song your hear will definitely, absolutely, be about your current problem.",
+                    " Open all that unopened mail you've been collecting, one of them might have a surprise..." ];
         
 function chooseRandom(myArray) {
   return myArray[Math.floor(Math.random() * myArray.length)];
