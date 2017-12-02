@@ -8,7 +8,7 @@ var T = new Twit(config);
 //Regular Tweet
 
 tweetIt();
-setInterval (tweetIt, 1000*60*5);
+setInterval (tweetIt, 1000*60*60);
 
 function tweetIt() {
 	
