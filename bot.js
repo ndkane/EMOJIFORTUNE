@@ -52,6 +52,20 @@ var phraseArray = [ " I see trouble ahead. Gather your things and get on the nex
                     " Stop where you are, immediately. Turn around, find something green and put it in your pocket.",
                     " They are not your true love, but they suit the furniture. Ask them to change and invite them over.",
                     " The next song your hear will definitely, absolutely, be about your current problem.",
+                    " Take four steps right, then two steps back, three left, one forward, two right. Stop. Think.",
+                    " Nobody will attempt to talk to you on the commute in today.",
+                    " The next podcast you listen to will reveal your next Amazon purchase.",
+                    " You will see at least five dogs today, and you will be able to pet one of them.",
+                    " No one will judge you if you take the last biscuit.",
+                    " Don't get your hair cut this week, if you were planning too. You will need the strength.",
+                    " The next four clocks you see will be wrong. Revert to the Old Rituals instead.",
+                    " Have you tried dowsing?",
+                    " It probably is not a good time to look in your closet today. Leave it for a couple of days, you will not like what you find.",
+                    " I see the letter N, six pairs of socks, and the colour purple. Mean anything?",
+                    " I see the letter O, a white cat, two identical jumpers and a bathtub. Mean anything?",
+                    " I see a storm, two flamingoes and a broken computer. They spell trouble.",
+                    " I see a cloudy day, a red scarf, an odd shoe and a bent fork. They spell riches.",
+                    " I see fields of green, red roses too, oh wait. Sorry. I see two black birds, a broken cup, a field with a river. The answer will be no.",
                     " Open all that unopened mail you have been collecting, one of them might have a surprise..." ];
         
 function chooseRandom(myArray) {
