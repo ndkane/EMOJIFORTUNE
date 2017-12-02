@@ -60,7 +60,7 @@ function chooseRandom(myArray) {
 var phrase = chooseRandom(phraseArray);
 
 	if (replyto === 'fortune_emojis'){
-		var newtweet = '@' + from + phrase;
+		var newtweet = '.@' + from + phrase;
 		tweetOut(newtweet);
 	}
 }
