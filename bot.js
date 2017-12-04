@@ -65,8 +65,29 @@ var phraseArray = [ " I see trouble ahead. Gather your things and get on the nex
                     " I see the letter O, a white cat, two identical jumpers and a bathtub. Mean anything?",
                     " I see a storm, two flamingoes and a broken computer. They spell trouble.",
                     " I see a cloudy day, a red scarf, an odd shoe and a bent fork. They spell riches.",
-                    " I see fields of green, red roses too, oh wait. Sorry. I see two black birds, a broken cup, a field with a river. The answer will be no.",
-                    " Open all that unopened mail you have been collecting, one of them might have a surprise..." ];
+                    " I see fields of green, red roses too, oh wait. Sorry. I see two black birds. The answer is no.",
+                    " Open all that unopened mail you have been collecting, one of them might have a surprise...",
+                    " Chips. Just chips, forever and always.",
+                    " The art will not make itself.",
+                    " Offer to remove the bobbles on the next jumper you see, you will be rewarded kindly.",
+                    " You have made a mistake, but not yet realised it. Retrace your steps.",
+                    " Tomorrow you will learn a great truth. Write everything down, it will make sense on Friday.",
+                    " Todays troubles will be tomorrows to-do-list.",
+                    " You will find a surprise whilst doing dull work.",
+                    " The early bird gets a surprise. Rise early each day this week.",
+                    " Clean socks maketh the man. Matching socks maketh the day.",
+                    " Clean socks maketh the woman. Odd socks maketh the day.",
+                    " The night is still young. Ask for its age.",
+                    " Send a letter to a lover. Preferably a vowel.",
+                    " Wear a hat tomorrow and await twist of fate. Not a red one though. You know why.",
+                    " It is where you least expect it. It is somewhere you have never been. Do not go there.",
+                    " Check the back of your sofa for more than just dust.",
+                    " Do not forget to buy toilet roll.",
+                    " An irritating family member will appear with a gift. Leave it outside.",
+                    " A person with glasses will be a true friend. Check the lenses, make sure.",
+                    " Nothing will go well this week. Nothing. Just a heads up.",
+                    " Collect ten stones. Live with them for a week. Drop them. There your answer will be.",
+                    " Board a late train to find thy true destiny. This will not be difficult." ];
         
 function chooseRandom(myArray) {
   return myArray[Math.floor(Math.random() * myArray.length)];
